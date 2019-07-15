@@ -59,11 +59,13 @@
     <Compile Include="Common.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RunExamples.cs" />
-    <Compile Include="Working_With_Changes\Comparison_CSharp_Compare_Multiple_Documents.cs" />
-    <Compile Include="Working_With_Changes\Comparison_CSharp_Compare_Single_Document.cs" />
     <Compile Include="Supported_File_Formats\Comparison_CSharp_Get_Supported_Formats.cs" />
-    <Compile Include="Working_With_Comparisons\Comparison_CSharp_Get_Changes_Multiple_Documents.cs" />
-    <Compile Include="Working_With_Comparisons\Comparison_CSharp_Get_Changes_Single_Document.cs" />
+    <Compile Include="Working_With_Changes\Comparison_CSharp_Get_Changes_Multiple_Documents.cs" />
+    <Compile Include="Working_With_Changes\Comparison_CSharp_Get_Changes_Single_Document.cs" />
+    <Compile Include="Working_With_Changes\Comparison_CSharp_Update_Changes_Multiple_Document.cs" />
+    <Compile Include="Working_With_Changes\Comparison_CSharp_Update_Changes_Single_Document.cs" />
+    <Compile Include="Working_With_Comparisons\Comparison_CSharp_Compare_Multiple_Documents.cs" />
+    <Compile Include="Working_With_Comparisons\Comparison_CSharp_Compare_Single_Document.cs" />
     <Compile Include="Working_With_Files\Comparison_CSharp_Copy_File.cs" />
     <Compile Include="Working_With_Files\Comparison_CSharp_Delete_File.cs" />
     <Compile Include="Working_With_Files\Comparison_CSharp_Download_File.cs" />
