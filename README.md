@@ -1,52 +1,45 @@
-## GroupDocs.Comparison Cloud SDK for .NET
+## GroupDocs.Comparison Cloud SDK for .NET Examples
+This repository contains [Examples](Examples) projects for [GroupDocs.Comparison Cloud SDK for .NET](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-dotnet) to help you learn and write your own applications.
 
-[GroupDocs.Comparison Cloud SDK for .NET](https://products.groupdocs.cloud/comparison/net) has been developed to provides a one-stop-shop solution for comparing documents in all common business formats. Supported file types include PDF, Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, plain text, and others. The API is highly scalable, easily customizable and helps the developers to utilize all the features of the API in an efficient and easier way. With this single API.
 
-This repository contains [Examples](Examples) projects for [GroupDocs.Comparison Cloud SDK for .NET](https://products.groupdocs.cloud/comparison/net) to help you learn and write your own applications.
+[GroupDocs.Comparison Cloud SDK for .NET](https://products.groupdocs.cloud/comparison/net) This SDK allows you to work with GroupDocs.Comparison Cloud REST APIs in your .NET applications.
+[GroupDocs.Comparison Cloud API](https://products.groupdocs.cloud/comparison). designed for compare documents for content and style differences across popular formats, accept or reject changes after compare.
 
 <p align="center">
-
-  <a title="Download complete GroupDocs.Comparison Cloud SDK Examples for .NET source code" href="https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-dotnet-samples/archive/master.zip">
+  <a title="Download complete GroupDocs.Comparison Cloud SDK .NET Example source code" href="https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-dotnet-samples/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-## How to use the SDK?
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [NuGet distribution](https://www.nuget.org/packages/GroupDocs.Comparison-Cloud/) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/comparisoncloud/Available+SDKs).
+## Prerequisites
 
-### Prerequisites
++ Visual Studio 2017 or Higher.
 
-To use GroupDocs.Comparison Cloud .NET SDK you need to register an account with [GroupDocs Cloud](https://groupdocs.cloud) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.groupdocs.cloud/#/apps). There is free quota available. For more details, see [GroupDocs Cloud Pricing](https://purchase.groupdocs.cloud/pricing).
++ GroupDocs.Comparison Cloud SDK for .NET.
 
-### Installation
++ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
-#### Install GroupDocs.Comparison Cloud via NuGet
+## How to Run the Examples?
 
-From the command line:
+The package contains C# examples. Follow the given steps to proceed with project build:
 
-	nuget install GroupDocs.Comparison Cloud
+* Extract the downloaded project and open the solution file in Visual Studio
+* Right click on solution and press "Enable NuGet package Restore"
+* Build the project.
 
-From Package Manager:
+In other case, it is possible that Visual Studio is unable to automatically add APIs references due to Visual Studio version differences. In this case, please add references of missing APIs manually.
 
-	PM> Install-Package GroupDocs.Comparison Cloud
+For more details, visit  [Getting Started](https://docs.groupdocs.cloud/display/comparisoncloud/Getting+Started).
 
-From within Visual Studio:
-
-1. Open the Solution Explorer.
-2. Right-click on a project within your solution.
-3. Click on *Manage NuGet Packages...*
-4. Click on the *Browse* tab and search for "GroupDocs.Comparison Cloud".
-5. Click on the GroupDocs.Comparison Cloud package, select the appropriate version in the right-tab and click *Install*.
-
-## Dependencies
-- .NET Framework 2.0 or later
-- [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/)
+## Licensing
+All GroupDocs.Comparison Cloud SDKs are licensed under [MIT License](LICENSE).
 
 ## Resources
++ [**Website**](https://www.groupdocs.cloud)
++ [**Product Home**](https://products.groupdocs.cloud/comparison)
++ [**Documentation**](https://docs.groupdocs.cloud/display/comparisoncloud/Home)
++ [**Free Support Forum**](https://forum.groupdocs.cloud/c/comparison)
++ [**Blog**](https://blog.groupdocs.cloud/category/comparison)
 
-+ **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
-+ **Product Home:** [GroupDocs.Comparison Cloud SDK for .NET](https://products.groupdocs.cloud/comparison/net)
-+ **Download:** [Download GroupDocs.Comparison Cloud SDK for .NET](https://www.nuget.org/packages/GroupDocs.Comparison-Cloud/)
-+ **Documentation:** [GroupDocs.Comparison Cloud SDK Documentation](https://docs.groupdocs.cloud/display/comparisoncloud/Home)
-+ **Free Support:** [GroupDocs.Comparison Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/comparison)
-+ **Blog:** [GroupDocs.Comparison Cloud SDK Blog](https://blog.groupdocs.cloud/category/comparison/)
+## Contact Us
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/comparison).
