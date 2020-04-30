@@ -33,6 +33,7 @@ namespace GroupDocs.Comparison.Cloud.Examples.CSharp
             #region Advanced usage
             CompareProtectedDocuments.Run();
             AcceptOrRejectChanges.Run();
+            CompareMultipleDocumentsOptions.Run();
             CompareMultipleProtectedDocuments.Run();
             CompareSensitivity.Run();
             CustomizeChangesStyles.Run();
