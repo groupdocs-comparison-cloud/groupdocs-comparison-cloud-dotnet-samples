@@ -1,6 +1,7 @@
 ﻿using System;
 using GroupDocs.Comparison.Cloud.Examples.CSharp.AdvancedUsage;
 using GroupDocs.Comparison.Cloud.Examples.CSharp.AdvancedUsage.CompareMultipleDocuments;
+using GroupDocs.Comparison.Cloud.Examples.CSharp.AdvancedUsage.Revisions;
 using GroupDocs.Comparison.Cloud.Examples.CSharp.AdvancedUsage.SaveOptions;
 using GroupDocs.Comparison.Cloud.Examples.CSharp.BasicUsage;
 using GroupDocs.Comparison.Cloud.Examples.CSharp.BasicUsage.CompareDifferentFormats;
@@ -15,10 +16,11 @@ namespace GroupDocs.Comparison.Cloud.Examples.CSharp
             ////          GroupDocs.Comparison Cloud API Examples
             //// ***********************************************************
 
-            //TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required).
-            Constants.MyAppSid = "XXXX-XXXX-XXXX-XXXX";
-            Constants.MyAppKey = "XXXXXXXXXXXXXXXX";
+            //TODO: Get your Client Id and Client secret at https://dashboard.groupdocs.cloud (free registration is required).
+            Constants.MyClientId = "XXXX-XXXX-XXXX-XXXX";
+            Constants.MyClientSecret = "XXXXXXXXXXXXXXXX";
             Constants.MyStorage = "First Storage";
+
 
             // Uploading sample test files from local disk to cloud storage
             Constants.UploadSampleTestFiles();
@@ -41,6 +43,9 @@ namespace GroupDocs.Comparison.Cloud.Examples.CSharp
             GetChangesCoordinates.Run();
             SetPassword.Run();
             SetMetadata.Run();
+
+            GetListOfRevisions.Run();
+            ApplyRevisions.Run();
             #endregion
 
 
