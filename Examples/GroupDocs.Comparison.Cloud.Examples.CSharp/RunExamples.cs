@@ -46,6 +46,8 @@ namespace GroupDocs.Comparison.Cloud.Examples.CSharp
 
             GetListOfRevisions.Run();
             ApplyRevisions.Run();
+            AcceptAllRevisions.Run();
+            RejectAllRevisions.Run();
             #endregion
 
 
