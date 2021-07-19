@@ -31,7 +31,7 @@ namespace GroupDocs.Comparison.Cloud.Examples.CSharp
             CompareDocuments.Run();
             ComparePdfDocuments.Run();
             #endregion
-
+            
             #region Advanced usage
             CompareProtectedDocuments.Run();
             AcceptOrRejectChanges.Run();
@@ -49,7 +49,6 @@ namespace GroupDocs.Comparison.Cloud.Examples.CSharp
             AcceptAllRevisions.Run();
             RejectAllRevisions.Run();
             #endregion
-
 
             Console.WriteLine("Completed!");
             Console.ReadKey();
